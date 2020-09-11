@@ -13,9 +13,8 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  cheese == "cheddar" || "gouda" || "camembert"
-  if array.include? (cheese)
-     return 
+  if array.include? ("cheddar") ||  ("gouda") || ("camembert")
+     return  
   else
     puts "No cheese, here."
   end
