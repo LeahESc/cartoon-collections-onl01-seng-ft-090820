@@ -14,7 +14,7 @@ end
 
 def find_the_cheese(array)
   if array.include? ("cheddar") ||  ("gouda") || ("camembert")
-     array.find {|frommage| fromage == "cheddar" || "gouda" || "camembert" 
+     array.find {|frommage| fromage == "cheddar" || "gouda" || "camembert" }
   else
     puts "No cheese, here."
   end
