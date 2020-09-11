@@ -12,10 +12,4 @@ def long_planeteer_calls(array)
   array.any? {|word| word.length > 4}
 end
 
-def find_the_cheese(array)
-  frommage = []
-  if array.include? ("cheddar") ||  ("gouda") || ("camembert")
-  else
-    puts "No cheese, here."
-  end
-end
+
