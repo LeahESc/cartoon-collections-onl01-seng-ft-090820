@@ -5,6 +5,7 @@ end
 end
 
 def summon_captain_planet(array)
+  array.map |word|
   # Your code here
 end
 
