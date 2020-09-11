@@ -14,7 +14,7 @@ end
 
 def find_the_cheese(array)
   cheese == "cheddar" || "gouda" || "camembert"
-  if array.include? ("cheddar") ||  ("gouda") || ("camembert")
+  if array.include? (cheese)
      return 
   else
     puts "No cheese, here."
